@@ -1,0 +1,115 @@
+#  Identifying and printing the type of different values
+values = [30, 2.81, "loving", [1, 2, 3], (4, 5, 6), {"name": "Nifemi"}, True]
+print(type(values[0]))         
+print(type(values[1]))       
+print(type(values[2]))   
+print(type(values[3]))  
+print(type(values[4]))  
+print(type(values[5])) 
+print(type(values[6]))     
+
+
+#  Performing basic arithmetic operations using int and float.
+x = 50
+y = 2.5
+
+# Addition
+print(x + y)  
+# Subtraction
+print(x - y)  
+# Multiplication
+print(x * y)  
+# Division
+print(x / y) 
+# Floor division
+print(x // y) 
+# Modulus (remainder)
+print(x % y)  
+# Exponentiation
+print(x ** y)  
+
+#  Converting between different numeric types using int() and float().
+value_int = 30
+value_float = 9.6
+
+# Convert int to float
+print(float(value_int))  
+# Convert float to int
+print(int(value_float))  
+
+
+#  Using string methods to manipulate text.
+text = "Messi is the GOAT"
+
+# Convert to lowercase
+print(text.lower())
+# Convert to uppercase
+print(text.upper())
+# Remove leading/trailing whitespace
+print(text.strip())
+# Replace a word
+print(text.replace("Messi", "Ronaldo").replace("is", "is not"))
+# Split into a list of words
+print(text.split())
+
+
+#  Formatting strings in different ways.
+name = "Lionel Messi"
+age = 37
+
+# Using f-strings method
+print(f"His name is {name} and he is {age} years old.")
+
+# Using format() method
+print("His name is {} and he is {} years old.".format(name, age))
+
+# Using Modulo Operator (%) formatting
+print("His name is %s and he is %d years old." % (name, age))
+
+
+#  creating and accessing a list
+list = [5, 10, 15, 20, 25, 30, 35, 40]
+
+# Access elements using indexing
+# first element
+print(list[0])  
+# last element
+print(list[-1])  
+
+# Access elements using slicing
+# Elements from index 0 to 3
+print(list[1:4])  
+
+# Append an element
+list.append(45)
+print(list)
+
+# Remove an element
+list.remove(10)
+print(list)
+
+# Pop an element
+list.pop(1)
+print(list)
+
+# Reverse the list
+list.reverse()
+print(list)
+
+# Sort the list
+list.sort()
+print(list)
+
+
+#  Creating and accessing a tuple
+# Medical information of a young boy
+Medicals = tuple(['Seyi', 11 , 'Child' , 5687])
+
+# Access elements using indexing
+ # First element
+print(Medicals[0]) 
+# Last element
+print(Medicals[-1])  
+
+# Demonstrating tuple immutability
+Medicals[0] = 'Dara'
